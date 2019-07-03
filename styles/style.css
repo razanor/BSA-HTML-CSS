@@ -40,6 +40,17 @@ header {
 }
 
 /* Navigation */
+
+.hamburger {
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
 .social-nav ul {
     display: grid;
     grid-gap: 40px;
@@ -283,7 +294,7 @@ aside {
 
 .profile-name span {
     margin: 0;
-    opacity: 0.4
+    opacity: 0.4;
 
 }
 
@@ -313,4 +324,28 @@ footer p {
     width: 50%;
     font-size: 0.8rem;
     justify-content: space-evenly;
+}
+
+@media all and (max-width: 665px) {
+    .hamburger {
+        display: block;
+    }
+
+    .social-nav .fab {
+        display: none;
+    }
+
+    .social-nav ul {
+        display: block;
+    }
+
+    .main-nav ul {
+        display: none;
+    }
+
+    #toggle:checked ~ .header-nav .main-nav ul {
+        display: grid;
+    }
+
+
 }
