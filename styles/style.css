@@ -347,5 +347,13 @@ footer p {
         display: grid;
     }
 
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .additional-info {
+        flex-direction: column;
+        align-items: center;       
+    }
 }
