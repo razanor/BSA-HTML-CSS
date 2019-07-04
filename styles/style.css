@@ -4,8 +4,7 @@ html {
 }
 
 body {
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 a {
@@ -91,7 +90,9 @@ header {
         'main .'
         / 1fr  300px
     ;
-    margin: 0 20px;
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 main {
