@@ -362,6 +362,7 @@ footer p {
             '. subscribe .'
             / 1fr 400px 1fr
         ;
+        margin: 0;
     }
 
     .item {
