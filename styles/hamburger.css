@@ -79,7 +79,7 @@
 #menu {
   position: fixed;
   width: 120px;
-  height: 100vh;
+  height: 100%;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
