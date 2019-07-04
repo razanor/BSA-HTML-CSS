@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/hamburger.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon.png">
     <script src="https://kit.fontawesome.com/c98c1d21cb.js"></script>
     <title>HTML && CSS</title>
 </head>
@@ -23,12 +23,12 @@
                     <span></span>
                     <span></span>
                     <ul id="menu">
-                        <a href="#"><li>Home</li></a>
-                        <a href="#"><li>About</li></a>
-                        <a href="#"><li>Contact</li></a>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-            </nav>            
+            </nav>
             <img src="img/logo.png" alt="logo" class="logo">
             <!-- Navigation -->
             <nav class="header-nav">
@@ -61,8 +61,7 @@
                     </div>
                     <h3 class="card-title">LOW PLANK</h3>
                     <p class="card-author">by Alexis</p>
-                    <p class="card-des">The simple act of planking isn’t very hard to pull off, but holding the position
-                        is a completely different story</p>
+                    <p class="card-des">The simple act of planking isn’t very hard to pull off, but holding the position is a completely different story</p>
                     <hr>
                     <p class="card-published">5 minutes ago</p>
                     <div class="reaction">
@@ -78,8 +77,7 @@
                     </div>
                     <h3 class="card-title">PUSH-UPS</h3>
                     <p class="card-author">by Alexis</p>
-                    <p class="card-des">The push-up is a classic bodyweight exercise that demonstrates quite clearly the
-                        principle of bodyweight resistance training</p>
+                    <p class="card-des">The push-up is a classic bodyweight exercise that demonstrates quite clearly the principle of bodyweight resistance training</p>
                     <hr>
                     <p class="card-published">10 minutes ago</p>
                     <div class="reaction">
@@ -95,8 +93,7 @@
                     </div>
                     <h3 class="card-title">LUNGES</h3>
                     <p class="card-author">by Alexis</p>
-                    <p class="card-des">The lunge is a fundamental bodyweight exercise that provides strength, balance,
-                        and flexibility training</p>
+                    <p class="card-des">The lunge is a fundamental bodyweight exercise that provides strength, balance, and flexibility training</p>
                     <hr>
                     <p class="card-published">18 minutes ago</p>
                     <div class="reaction">
@@ -112,8 +109,7 @@
                     </div>
                     <h3 class="card-title">DIPS</h3>
                     <p class="card-author">by Alexis</p>
-                    <p class="card-des">The dip is hands-down the best bodyweight exercise for developing the triceps.
-                        All you need is a bench, chair, couch, etc</p>
+                    <p class="card-des">The dip is hands-down the best bodyweight exercise for developing the triceps. All you need is a bench, chair, couch, etc</p>
                     <hr>
                     <p class="card-published">29 minutes ago</p>
                     <div class="reaction">
@@ -129,8 +125,7 @@
                     </div>
                     <h3 class="card-title">WALL SITS</h3>
                     <p class="card-author">by Alexis</p>
-                    <p class="card-des">The wall sit is arguably one of the most challenging isometric movements you can
-                        perform with your bodyweight</p>
+                    <p class="card-des">The wall sit is arguably one of the most challenging isometric movements you can perform with your bodyweight</p>
                     <hr>
                     <p class="card-published">37 minutes ago</p>
                     <div class="reaction">
@@ -146,8 +141,7 @@
                     </div>
                     <h3 class="card-title">THE BRIDGE</h3>
                     <p class="card-author">by Alexis</p>
-                    <p class="card-des">The bridge exercise has you on your back and pushing up with the legs (through
-                        your heels) while maintaining balance</p>
+                    <p class="card-des">The bridge exercise has you on your back and pushing up with the legs (through your heels) while maintaining balance</p>
                     <hr>
                     <p class="card-published">52 minutes ago</p>
                     <div class="reaction">
@@ -158,16 +152,20 @@
             </main>
 
             <!-- Aside Container -->
-            <aside>
+            <aside class="author-details">
                 <img src="img/author-profile.jpg" alt="author" class="author-img">
                 <h4>Alexis Osborn</h4>
                 <p class="author-des">Personal trainer with 10 years experience. Bodyweight training enthusiast</p>
                 <nav class="author-nav">
-                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
                 </nav>
+            </aside>
+            <aside class="subscribe">
                 <form class="author-subscribe">
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
