@@ -360,7 +360,7 @@ footer p {
             '. author-details .'
             '. main .' 
             '. subscribe .'
-            / 1fr 400px 1fr
+            / 3fr 350px 1fr
         ;
         margin: 0;
     }
